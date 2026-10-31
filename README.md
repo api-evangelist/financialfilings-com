@@ -1,4 +1,4 @@
-# FinancialFilings
+# financialfilings-com
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,46 +64,49 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-FinancialFilings provides a comprehensive index of public-company filings worldwide, offering both a free web interface and a typed REST API. Users can search companies, explore filings across 60 markets, and access datasets via JSON, Markdown, or PDF. The platform aggregates data from over 113 sources, supporting analytics, research, and compliance use cases.
+FinancialFilings provides a unified API and web index of public-company filings from over 60 global markets, covering more than 54 million filings. Users can search companies, retrieve filings in JSON, Markdown, PDF, and integrate data via REST, S3, Snowflake, or webhooks. The platform offers pricing tiers, developer documentation, and a free web view for public access.
 
-**Areas:** Company · Financial-Data · Filings · API · Market-Data · Research
+**Areas:** Company · Finance · Data · API · Filings
 
-## FinancialFilings on APIs.io
+## financialfilings-com on APIs.io
 
-Everything profiled for FinancialFilings is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/financialfilings-com/](https://apis.io/providers/financialfilings-com/)** — or go straight to one of the APIs or properties below.
+Everything profiled for financialfilings-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/financialfilings-com/](https://apis.io/providers/financialfilings-com/)** — or go straight to one of the APIs or properties below.
 
-### APIs (1)
+### APIs (15)
 
-- [Financial Filings API](https://apis.io/apis/financialfilings-com/financial-filings-api/) — Public company filing data API as described in the developer reference.
+- [financialfilings-com Account API](https://apis.io/apis/financialfilings-com/financialfilings-com-account-api/) — Your own API usage and spend. Free, never billed.
+- [financialfilings-com Agent Account API](https://apis.io/apis/financialfilings-com/financialfilings-com-agent-account-api/) — Lets an AI agent get its own API key: sign up, check status, ask the owner to confirm, add a card.
+- [financialfilings-com Companies API](https://apis.io/apis/financialfilings-com/financialfilings-com-companies-api/) — Company profiles, identifiers and financials.
+- [financialfilings-com Countries API](https://apis.io/apis/financialfilings-com/financialfilings-com-countries-api/) — Supported countries.
+- [financialfilings-com Filing Categories API](https://apis.io/apis/financialfilings-com/financialfilings-com-filing-categories-api/) — The 11 filing categories (FRCF). Every filing type belongs to one.
+- [financialfilings-com Filing Types API](https://apis.io/apis/financialfilings-com/financialfilings-com-filing-types-api/) — Every filing type we classify filings into.
+- [financialfilings-com Filings API](https://apis.io/apis/financialfilings-com/financialfilings-com-filings-api/) — Find filings and read their documents and content.
+- [financialfilings-com Financial Data API](https://apis.io/apis/financialfilings-com/financialfilings-com-financial-data-api/) — Standardized income statement, balance sheet and cash flow data, and the dictionary of line items.
+- [financialfilings-com ISIC Classifications API](https://apis.io/apis/financialfilings-com/financialfilings-com-isic-classifications-api/) — Browse the ISIC industry classification.
+- [financialfilings-com ISINs API](https://apis.io/apis/financialfilings-com/financialfilings-com-isins-api/) — Look up the company behind an ISIN.
+- [financialfilings-com Languages API](https://apis.io/apis/financialfilings-com/financialfilings-com-languages-api/) — Supported filing languages.
+- [financialfilings-com Security Listings API](https://apis.io/apis/financialfilings-com/financialfilings-com-security-listings-api/) — Exchange listings per company: venue, ticker and FIGI.
+- [financialfilings-com Sources API](https://apis.io/apis/financialfilings-com/financialfilings-com-sources-api/) — The original sources of filings.
+- [financialfilings-com Watchlist API](https://apis.io/apis/financialfilings-com/financialfilings-com-watchlist-api/) — The companies you follow. Filters and webhooks can use it.
+- [financialfilings-com Webhooks (Management) API](https://apis.io/apis/financialfilings-com/financialfilings-com-webhooks-management-api/) — Create and manage webhook subscriptions, and inspect their deliveries.
 
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-#### AsyncAPI (1)
-
-Event-driven and webhook contracts.
-
-- [Financialfilings Com Webhooks](https://apis.io/asyncapis/financialfilings-com/financialfilings-com-webhooks/)
-
-#### JSON-LD (1)
-
-Linked-data contexts for the provider's vocabulary.
-
-- [Financialfilings Com Context](https://apis.io/jsonld/financialfilings-com/financialfilings-com-context/)
-
-#### Governance rules (1)
-
-Spectral rulesets for the provider's contracts.
-
-- [FinancialFilings API Rules](https://apis.io/rules/financialfilings-com/financialfilings-com-rules/)
-
-#### Security (2)
+#### Security (3)
 
 Authentication, trust centre, and vulnerability disclosure.
 
+- [Financialfilings Com Authentication](https://apis.io/security/financialfilings-com/financialfilings-com-authentication/)
 - [Financialfilings Com Domain Security](https://apis.io/security/financialfilings-com/financialfilings-com-domain-security/)
 - [Financialfilings Com Vulnerability Disclosure](https://apis.io/security/financialfilings-com/financialfilings-com-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Financialfilings Com Scopes](https://apis.io/scopes/financialfilings-com/financialfilings-com-scopes/)
 
 #### Plans and pricing (1)
 
@@ -111,33 +114,41 @@ Published plans, tiers and prices.
 
 - [Financialfilings Com Plans Pricing](https://apis.io/plans/financialfilings-com/financialfilings-com-plans-pricing/)
 
+#### Rate limits (1)
+
+Published request limits.
+
+- [Financialfilings Com Rate Limits](https://apis.io/rate-limits/financialfilings-com/financialfilings-com-rate-limits/)
+
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://financialfilings.com/)
 - [Documentation](https://financialfilings.com/developers/reference/)
-- [Getting started](https://financialfilings.com/mcp/)
-- [API reference](https://financialfilings.com/api-solutions/)
+- [Getting started](https://financialfilings.com/developers/)
+- [API reference](https://financialfilings.com/developers/reference/)
 - [Pricing](https://financialfilings.com/pricing/)
+- [Sign up](https://financialfilings.com/accounts/login/?next=%2Faccounts%2Fapi-dashboard%2F%3Fsource%3Dnavbar&source=navbar)
 - [Changelog](https://financialfilings.com/developers/changelog/)
+- [Blog](https://financialfilings.com/research/)
 - [Terms of service](https://financialfilings.com/terms/)
 - [Privacy policy](https://financialfilings.com/data-privacy/)
 
 ## API Evangelist rating
 
-**Kin Score 55.4** — strong · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 50.5** — developing · rubric 0.25.0 · scored 2026-10-30
 
 | Facet | Score |
 |---|---|
-| Discoverability | 57.1 |
-| Contract quality | 53.2 |
-| Contract governance | 79.1 |
-| Operational transparency | 34.2 |
-| Developer ergonomics | 38.1 |
+| Discoverability | 65.0 |
+| Contract quality | 51.9 |
+| Contract governance | 0.0 |
+| Operational transparency | 45.3 |
+| Developer ergonomics | 46.9 |
 | Access clarity | 63.7 |
 
-**Agent readiness 42.2** — agent-ready (gated down from agent-native)
+**Agent readiness 59.7** — agent-native
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -146,12 +157,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | served (partial credit) |
-| Idempotency | — |
-| Error Semantics | derived (partial credit) |
-| OpenAPI Examples | — |
-| Rate Limit Signal | — |
-| Event Surface Described | unknown |
-| Agent Skills | — |
+| Idempotency | documented (partial credit) |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
 | Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | — |
@@ -160,10 +171,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | verified |
 | Dynamic Client Registration | yes |
 | Agentic Commerce | — |
-| Pagination Ratio | na |
-| Operation Distinctiveness | na |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
 
-**Regulatory alignment 34.3** — Securities & Market Data
+**Regulatory alignment 35.3** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/financialfilings-com/](https://apis.io/providers/financialfilings-com/).
 
@@ -171,7 +182,7 @@ The rubric is published at [github.com/api-evangelist/kin-score](https://github.
 
 API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for FinancialFilings: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for financialfilings-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
 ## Open an issue
 
