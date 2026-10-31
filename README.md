@@ -1,4 +1,4 @@
-# financialfilings-com
+# FinancialFilings
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,117 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-financialfilings-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://financialfilings.com/
+FinancialFilings provides a comprehensive index of public-company filings worldwide, offering both a free web interface and a typed REST API. Users can search companies, explore filings across 60 markets, and access datasets via JSON, Markdown, or PDF. The platform aggregates data from over 113 sources, supporting analytics, research, and compliance use cases.
+
+**Areas:** Company · Financial-Data · Filings · API · Market-Data · Research
+
+## FinancialFilings on APIs.io
+
+Everything profiled for FinancialFilings is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/financialfilings-com/](https://apis.io/providers/financialfilings-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Financial Filings API](https://apis.io/apis/financialfilings-com/financial-filings-api/) — Public company filing data API as described in the developer reference.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Financialfilings Com Webhooks](https://apis.io/asyncapis/financialfilings-com/financialfilings-com-webhooks/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Financialfilings Com Context](https://apis.io/jsonld/financialfilings-com/financialfilings-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [FinancialFilings API Rules](https://apis.io/rules/financialfilings-com/financialfilings-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Financialfilings Com Domain Security](https://apis.io/security/financialfilings-com/financialfilings-com-domain-security/)
+- [Financialfilings Com Vulnerability Disclosure](https://apis.io/security/financialfilings-com/financialfilings-com-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Financialfilings Com Plans Pricing](https://apis.io/plans/financialfilings-com/financialfilings-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://financialfilings.com/)
+- [Documentation](https://financialfilings.com/developers/reference/)
+- [Getting started](https://financialfilings.com/mcp/)
+- [API reference](https://financialfilings.com/api-solutions/)
+- [Pricing](https://financialfilings.com/pricing/)
+- [Changelog](https://financialfilings.com/developers/changelog/)
+- [Terms of service](https://financialfilings.com/terms/)
+- [Privacy policy](https://financialfilings.com/data-privacy/)
+
+## API Evangelist rating
+
+**Kin Score 55.4** — strong · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 53.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 34.2 |
+| Developer ergonomics | 38.1 |
+| Access clarity | 63.7 |
+
+**Agent readiness 42.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 34.3** — Securities & Market Data
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/financialfilings-com/](https://apis.io/providers/financialfilings-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for FinancialFilings: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/financialfilings-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
